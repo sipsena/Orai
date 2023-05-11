@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="login_username">User name :</string>
+    <string name="login_password">Password :</string>
+    <string name="login_button">Login</string>
+    <string name="registration_name">Registration name</string>
+    <string name="registration_password">Registration password</string>
+    <string name="login_wrong_input">Klaidingai ivestas prisijungimo
+        vardas arba slaptazodis</string>
+    <string name="registration_wrong_input">Klaidingai ivestas prisijungimo
+        vardas,slaptazodis ar el. pastas</string>
+    <string name="main_edit_button">Edit</string>
+    <string name="main_delete_button">Delete</string>
+    <string name="popup_save_button">Save</string>
+    <string name="popup_edit_country">Enter country name</string>
+    <string name="popup_edit_degrees">Enter degrees</string>
+
+
+</resources>

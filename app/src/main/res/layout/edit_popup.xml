@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/black">
+
+    <EditText
+        android:id="@+id/edit_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/popup_edit_country"/>
+
+    <EditText
+        android:id="@+id/edit_degrees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_country"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp"
+        android:hint="@string/popup_edit_degrees"/>
+
+    <Button
+        android:id="@+id/save_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_degrees"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:text="@string/popup_save_button"/>
+
+
+</RelativeLayout>
