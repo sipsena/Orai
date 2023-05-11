@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
                         //Main langa(2 parametras)
 
                         Intent goToMainActivity=new Intent(LoginActivity.this,
-                                RegistrationActivity.class);
+                                MainActivity.class);
 
                         //startuoja nauja langas(butina perduoti auksciau sukurta kietinima)
                         //reikia nurodyti kur kietiname eiti
